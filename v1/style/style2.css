@@ -1,0 +1,71 @@
+/*
+What do I want this to look like?
+A navbar at the top. 
+Content in the middle.
+Footer on bottom. 
+navbar and footer share same darker color, main container is lighter.
+
+my name is the defacto logo, on left side. is bigger. 
+nav links are on right side, are slightly smaller. 
+
+for v1, I'm gonna try and do this entirely in flex-box
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: 'Nunito', sans-serif;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+.navbar {
+  border: 0px red solid;
+  padding: 0 0 0 0;
+}
+.logo {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 40px;
+  padding: 0 10px 0 10px;
+  font-weight: bold;
+  border: 0px blue solid;
+}
+.nav-links {
+  display: inline-flex;
+  list-style-type: none;
+  border: 0px green solid;
+}
+
+.nav-links li {
+  justify-content: space-around;
+  padding: 0 10px 0 10px;
+}
+.maincontainer {
+  flex: 1 0 auto;
+  margin: auto;
+  width: 80%;
+  min-height: 100%;
+  background-color: #eee;
+  border: 2px green solid;
+}
+.mainfooter {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #eee;
+  font-size: 14px;
+  background: #333;
+  min-height: auto;
+  border: 0px red solid;
+  padding: 20px 0 20px 20px;
+}
