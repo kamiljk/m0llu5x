@@ -5,6 +5,8 @@
 }
 /* GLOBAL STUFF */
 /* sized for mobile first */
+/* T R B L */
+
 body {
   display: flex;
   flex-direction: column;
@@ -40,6 +42,7 @@ a:hover {
   color: #c11107;
 }
 /* NAVIGATION */
+/* T R B L */
 
 .navbar {
   list-style-type: none;
@@ -68,6 +71,7 @@ a:hover {
 }
 
 /* MAIN CONTENT */
+/* T R B L */
 
 .wrapper {
   display: flex;
@@ -84,6 +88,7 @@ a:hover {
 }
 
 /* FOOTER */
+/* T R B L */
 
 .mainfooter {
   display: flex;
@@ -97,11 +102,12 @@ a:hover {
 /* MEDIA QUERIES FOR TABLET + DESKTOP */
 /* horizontal SE - 568 */
 /* T R B L */
+
 @media only screen and (min-width: 568px) {
   .navbar {
     display: flex;
     flex-direction: row;
-    padding: 1.5rem 1.5rem 0.9rem 2.5rem;
+    padding: 1.5rem 1.5rem 1.5rem 2.5rem;
     justify-content: flex-end;
   }
 
@@ -126,7 +132,7 @@ a:hover {
   .navbar {
     display: flex;
     flex-direction: row;
-    padding: 1.5rem 0 0.9rem 0;
+    padding: 1.5rem 0 1.5rem 0;
     justify-content: flex-end;
   }
   .wrapper {
@@ -142,7 +148,7 @@ a:hover {
   .navbar {
     display: flex;
     flex-direction: row;
-    padding: 1.5rem 0 0.9rem 0;
+    padding: 1.5rem 0 1.5rem 0;
     justify-content: flex-end;
   }
   .wrapper {
