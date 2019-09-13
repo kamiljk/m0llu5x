@@ -19,6 +19,7 @@ body {
 }
 nav {
   background-color: #eee;
+  border-bottom: 2px #c11107 solid;
 }
 
 h1 {
@@ -36,11 +37,12 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #c11107;
+  border-bottom: 2px #c11107 solid;
 }
 #currentpage {
   color: #c11107;
 }
+
 /* NAVIGATION */
 /* T R B L */
 
